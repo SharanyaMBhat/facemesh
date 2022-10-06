@@ -1,5 +1,6 @@
 // import logo from './logo.svg';
 import React, {useRef} from 'react'
+import "@tensorflow/tfjs"
 import * as facemesh from "@tensorflow-models/facemesh"
 import Webcam from 'react-webcam';
 import './App.css';
